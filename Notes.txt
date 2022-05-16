@@ -1,0 +1,13 @@
+fonction survolée qui  est appellée sur le survol de l’image 
+
+<IMG SRC="i1.jpg" id ="i1" name="image1" width=72 height=72 onmouseOver="survolee(1);">  
+
+ 
+
+Pour modifier la source d’une image(attribut src en html),  3 solutions :
+
+        document.images["image1"].src              images est donc un tableau et images["image1"] désigne l’image qui s’appelle image1
+
+        document.getElementById("i1").src         en utilisant l’attribut id dans la balise IMG
+
+        document.getElementByName("image1").src     en utilisant l’attribut name de la balise IMG
