@@ -15,3 +15,10 @@ function survolee(x){
         document.getElementById("i1").src=src_2;
     }
 }
+
+function reset(x){
+    document.getElementById("i1").src="i1.jpeg";
+    document.getElementById("i2").src="i2.jpeg";
+    document.getElementById("i3").src="i3.jpeg";
+    document.getElementById("i4").src="i4.jpeg";
+}
